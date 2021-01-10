@@ -1,0 +1,26 @@
+@import './Header.scss';
+@import './FrontPage.scss';
+@import './MiddlePage.scss';
+@import './Slider.scss';
+@import './Footer.scss';
+
+
+
+
+
+
+@font-face {
+    src: url('./instafont.ttf');
+    font-family: "instafont";
+}
+@font-face {
+    src: url('./myfont.ttf');
+    font-family: "myfont";
+}
+@font-face {
+    src: url('./fbfont.OTF');
+    font-family: "fbfont";
+}
+body {
+    background-color: white;
+}

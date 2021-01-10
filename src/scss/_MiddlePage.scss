@@ -1,0 +1,516 @@
+.middlepage {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 670px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    &_uppertext {
+        font-size: 2.6rem;
+        text-align: center;
+        font-family: instafont;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.2rem;
+        text-transform: capitalize;
+        margin-top: 27px;
+    }
+
+    &_heading {
+        font-family: fbfont;
+        font-size: 2.9rem;
+        text-align: center;
+        margin-top: -37px;
+    }
+
+    &_container {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .card {
+        box-shadow: none;
+        background-color: transparent;
+        border-color: transparent;
+        margin-left: 30px;
+        margin-top: 3px;
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            span {
+                font-size: 3.3rem;
+                font-family: fbfont;
+                text-transform: capitalize;
+            }
+            .text {
+                font-size: 1.1rem;
+                width: 30rem;
+                height: 30rem;
+                text-align: justify;
+                text-transform: none;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            .media {
+                width: 30rem;
+                height: 30rem;
+                margin-top: -130px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    &_innertext {
+        font-size: 2.9rem;
+        text-align: center;
+        font-family: instafont;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.2rem;
+        text-transform: capitalize;
+        margin-top: 40px;
+        span {
+            font-family: fbfont;
+            font-size: 1.4rem;
+            text-transform: none;
+            letter-spacing: 0.04rem;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    .middlepage {
+        .card {
+            .content {
+                .text {
+                    width: 28.2rem;
+                    height: 28.2rem;    
+                }
+                .media {
+                    width: 29rem;
+                    height: 29rem;
+                    margin-top: 17px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 955px) {
+    .middlepage {
+        .card {
+            .content {
+                .text {
+                    width: 27.2rem;
+                    height: 27.2rem;    
+                }
+                .media {
+                    width: 27.6rem;
+                    height: 27.6rem;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 2.5rem;
+        }
+        &_heading {
+            font-size: 2.8rem;
+        }
+
+        &_innertext {
+            font-size: 2.6rem;
+            span {
+                font-size: 1.1rem;
+                letter-spacing: 0.03rem;
+            }
+        }    
+    }
+}
+@media (max-width: 890px) {
+    .middlepage {
+        .card {
+            .content {
+                .text {
+                    width: 26.5rem;
+                    height: 26.5rem;
+                }
+                .media {
+                    width: 26.25rem;
+                    height: 26.25rem;
+                    margin-top: 25px;                    
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 2.4rem;
+        }
+        &_heading {
+            font-size: 2.7rem;
+            margin-top: -32px;
+        }
+    }
+}
+@media (max-width: 860px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 2.9rem;
+                }
+                .text {
+                    width: 25.8rem;
+                    height: 25.8rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 790px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 2.6rem;
+                }
+                .text {
+                    width: 24rem;
+                    height: 24rem;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 2.2rem;
+        }
+        &_heading {
+            font-size: 2.5rem;        
+        }
+    }   
+}
+@media (max-width: 760px) {
+    .middlepage {
+        .card {
+            .content {
+                .media {
+                    width: 23.2rem;
+                    height: 23.2rem;
+                    margin-top: 27px;
+                }
+            }
+        }
+
+        &_innertext {
+            span {
+                font-size: 0.98rem;
+                letter-spacing: 0.02rem;
+            }
+        } 
+    }   
+}
+@media (max-width: 705px) {
+    .middlepage {
+        .card {
+            .content {
+                .text {
+                    font-size: 1rem;
+                }
+                .media {
+                    margin-top: 17px;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 2.08rem;
+        }
+        &_heading {
+            font-size: 2.33rem;        
+        }
+    }
+}
+@media (max-width: 680px) {
+    .middlepage {
+        &_innertext {
+            span {
+                font-size: 0.93rem;
+                letter-spacing: 0.015rem;
+            }
+        } 
+    }
+}
+@media (max-width: 630px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 2.3rem;
+                }
+                .text {
+                    font-size: 0.95rem;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 1.91rem;
+        }
+        &_heading {
+            font-size: 2.24rem;        
+        }
+
+        &_innertext {
+            span {
+                font-size: 0.85rem;
+                letter-spacing: 0.01rem;
+            }
+        } 
+    }
+}
+@media (max-width: 600px) {
+    .middlepage {
+        height: 555%;
+        width: 140%;
+        top: 578px;
+        .card {
+            .content {
+                flex-direction: column;
+                span {
+                    font-size: 2.9rem;
+                }
+                .text {
+                    font-size: 1.2rem;
+                }
+                .media {
+                    width: 16.5rem;
+                    height: 16.5rem;
+                    margin-top: -27px;
+                }
+            }
+        }
+        
+        &_uppertext {
+            font-size: 2.6rem;
+        }
+        &_heading {
+            font-size: 2.9rem;        
+        }
+    }
+}
+@media (max-width: 520px) {
+    .middlepage {
+        .card {
+            .content {
+                .media {
+                    width: 16rem;
+                    height: 16rem;
+                }
+            }
+        }
+    }
+    
+    &_uppertext {
+        font-size: 2.45rem;
+    }
+    &_heading {
+        font-size: 2.65rem;        
+    }
+}
+@media (max-width: 465px) {
+    .middlepage {
+        &_uppertext {
+            font-size: 2.35rem;
+        }
+        &_heading {
+            font-size: 2.45rem;        
+        }
+    }
+}
+@media (max-width: 430px) {
+    .middlepage {
+        &_uppertext {
+            font-size: 2.22rem;
+        }
+        &_heading {
+            font-size: 2.32rem;        
+        }
+    }
+}
+@media (max-width: 400px) {
+    .middlepage {
+        .card {
+            .content {
+                flex-direction: column;
+                span {
+                    font-size: 2.5rem;
+                }
+                .media {
+                    width: 19.8rem;
+                    height: 19.8rem;
+                }
+                .text {
+                    width: 28.7rem;
+                    height: 28.7rem;
+                    font-size: 1.07rem;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 1.86rem;
+        }
+        &_heading {
+            font-size: 2.06rem;
+        }
+    }
+}
+@media (max-width: 355px) {
+    .middlepage {
+        .card {
+            .content {
+                flex-direction: column;
+                span {
+                    font-size: 2.35rem;
+                }
+                .media {
+                    width: 19.1rem;
+                    height: 19.1rem;
+                }
+                .text {
+                    width: 26.8rem;
+                    height: 26.8rem;
+                    font-size: 1.04rem;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 1.8rem;
+        }
+        &_heading {
+            font-size: 1.9rem;
+        }
+    }
+}
+@media (max-width: 340px) {
+    .middlepage {
+        .card {
+            .content {
+                .text {
+                    width: 20rem;
+                    height: 20rem;
+                    font-size: 1.03rem;
+                }
+            }
+        }
+
+        &_uppertext {
+            font-size: 1.65rem;
+        }
+        &_heading {
+            font-size: 1.85rem;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 2.2rem;
+                }
+                .media {
+                    width: 17.3rem;
+                    height: 17.3rem;
+                }
+                .text {
+                    width: 21.8rem;
+                    height: 21.8rem;
+                    font-size: 1.01rem;
+                }
+            }
+        }
+            
+        &_uppertext {
+            font-size: 1.2rem;
+        }
+        &_heading {
+            font-size: 1.5rem;
+            margin-top: -25px;
+        }
+    }
+}
+@media (max-width: 275px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 2rem;
+                }
+                .media {
+                    width: 16.1rem;
+                    height: 16.1rem;
+                }
+                .text {
+                    width: 16.5rem;
+                    height: 18.1rem;
+                    font-size: 0.75rem;
+                }
+            }
+            margin-left: -4px;
+        }
+            
+        &_uppertext {
+            font-size: 0.92rem;
+        }
+        &_heading {
+            font-size: 1.15rem;
+        }
+    }
+}
+@media (max-width: 195px) {
+    .middlepage {
+        .card {
+            .content {
+                span {
+                    font-size: 1.75rem;
+                }
+                .media {
+                    width: 15.9rem;
+                    height: 15.9rem;
+                }
+                .text {
+                    width: 15rem;
+                    height: 15rem;
+                    font-size: 0.61rem;
+                }
+            }
+            margin-left: 5px;
+        }
+            
+        &_uppertext {
+            font-size: 0.71rem;
+        }
+        &_heading {
+            font-size: 1.03rem;
+        }
+    }
+}

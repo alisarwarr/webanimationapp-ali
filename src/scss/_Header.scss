@@ -1,0 +1,124 @@
+#header {
+    .logobox {
+        .name {
+            font-size: 1.9rem;
+            letter-spacing: 0.125rem;
+            font-family: myfont;
+            margin-left: 0.4rem;
+        }
+    }
+
+    .tabs {
+        .tab {
+            outline: none;
+        }    
+    }
+}
+.shade1 {
+    //Google inspect copied
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.06) !important;
+    border-bottom: 1px solid #ebebeb;
+}
+.shade2 {
+    //Google inspect copied
+    box-shadow: 0 2px 4px rgba(70, 63, 63, 0.06) !important;
+    border-bottom: 1px solid #5f5f5f;
+}
+
+
+
+
+
+@media (max-width: 765px) {
+    #header {
+        .logobox {
+            .name {
+                font-size: 1.25rem;
+                margin-left: 0.12rem;
+            }
+        }
+    }
+}
+@media (max-width: 745px) {
+    #header {
+        .logobox {
+            .name {
+                font-size: 1.15rem;
+                margin-left: 0.01rem;
+            }
+        }
+    }
+}
+@media (max-width: 730px) {
+    #header {
+        .logobox {
+            .name {
+                font-size: 1.12rem;
+                margin-left: -1rem;
+            }
+        }
+    }
+}
+@media (max-width: 710px) {
+    #header {
+        .logobox {
+            .name {
+                font-size: 0.78rem;
+                margin-left: -1.3rem;
+            }
+        }
+    }
+}
+@media (max-width: 695px) {
+    #header  {
+        .logobox {
+            display: none !important;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    #header  {
+        .tabs {
+            margin-left: 80px;
+            .tab {
+                margin-right: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    #header  {
+        .tabs {
+            margin-left: 32px;
+            .tab {
+                margin-right: 18px;
+            }
+        }
+    }
+}
+@media (max-width: 275px) {
+    #header  {
+        .tabs {
+            margin-left: 16px;
+            .tab {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+@media (max-width: 230px) {
+    #header  {
+        .tabs {
+            margin-left: 14px;
+            .tab {
+                margin-left: -10px;
+            }
+            .label {
+                display: none;
+            }
+        }
+    }
+}

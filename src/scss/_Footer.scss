@@ -1,0 +1,122 @@
+#footer {
+    background-color: transparent;
+
+    position: absolute;
+    top: 3695px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 38%;
+    width: 140%;
+    a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    h5:hover {
+        cursor: pointer;
+    }
+}
+#navbar {
+    margin-top: 20px;
+    top: 3940px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #navbar {
+        top: 4105px;
+    }
+}
+@media (max-width: 600px) {   //have to do
+    #footer {
+        top: 3795px;
+    }
+    #navbar {
+        top: 4203px;
+    }
+}
+@media (max-width: 600px) {
+    #footer {
+        margin-left: 130px;
+    }
+    #navbar {
+        width: 140%;
+    }
+}
+@media (max-width: 577px) {   //have to do
+    #footer {
+        top: 3795px;
+        width: 100%;
+    }
+}
+@media (max-width: 390px) {
+    #footer {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 290px) {
+    #footer {
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 285px) {
+    #navbar {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 275px) {   //have to do
+    #footer {
+        top: 3405px;
+    }
+    #navbar {
+        top: 3830px;
+    }
+}
+@media (max-width: 275px) {
+    #footer {
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+}
+@media (max-width: 215px) {
+    #footer {
+        margin-left: 40px;
+        margin-top: -65px;
+        .hideon215 {
+            display: none;        
+        }
+    }
+    #navbar {
+        top: 3605px;
+    }
+}
+@media (max-width: 195px) {   //have to do
+    #footer {
+        top: 3125px;
+    }
+    #navbar {
+        top: 3353px;
+    }
+}
+@media (max-width: 195px) {   //have to do
+    #footer {
+        margin-top: -25px;
+    }
+}
